@@ -11,6 +11,8 @@ import startServer from './setup/server/start-server'
 const app = new Express()
 const server = new Server(app)
 
+app.use(Express.static('public'))
+
 // Load modules
 loadModules(app)
 
