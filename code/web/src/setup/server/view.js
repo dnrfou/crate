@@ -48,12 +48,12 @@ const index = (APP_URL, NODE_ENV, helmet = null, appHtml = '', styles = '', init
     </script>
     
     <!-- JS Bundle -->
-    <script type="text/javascript" src="${ APP_URL }/public/js/bundles/vendor.js"></script>
-    <script type="text/javascript" src="${ APP_URL }/public/js/bundles/app.js${ NODE_ENV !== 'production' ? ('?'+Math.random()) : '' }"></script>
+    <script type="text/javascript" src="${ APP_URL }/js/bundles/vendor.js"></script>
+    <script type="text/javascript" src="${ APP_URL }/js/bundles/app.js${ NODE_ENV !== 'production' ? ('?'+Math.random()) : '' }"></script>
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-          .register('${ APP_URL }/public/js/service-worker.js')
+          .register('${ APP_URL }/js/service-worker.js')
           .then(function() { console.log('Service Worker Registered') })
       }
     </script>
