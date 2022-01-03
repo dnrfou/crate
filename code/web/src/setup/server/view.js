@@ -57,7 +57,9 @@ const index = (APP_URL, NODE_ENV, helmet = null, appHtml = '', styles = '', init
           .then(function() { console.log('Service Worker Registered') })
       }
     </script>
+    test 입니다.
 </body>
+
 </html>`
 )
 
