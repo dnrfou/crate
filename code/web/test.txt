@@ -1,0 +1,8 @@
+git branch test!!
+aaaaaa
+<<<<<<< HEAD
+bbbb
+=======
+bbbb
+cccc
+>>>>>>> issue1

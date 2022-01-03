@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "root",
+    "password": "jkall6307!",
+    "database": "management",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "seederStorage": "sequelize"
+  },
+  "production": {
+    "username": "root",
+    "password": "jkall6307!",
+    "database": "management",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "seederStorage": "sequelize"
+  }
+}
