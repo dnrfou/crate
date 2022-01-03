@@ -14,6 +14,7 @@ export default function (app) {
   // Request body parser
   app.use(bodyParser.json())
   app.use(bodyParser.urlencoded({extended: false}))
+  app.use(express.static('public'))
 
   // Request body cookie parser
   app.use(cookieParser())
